@@ -1,0 +1,21 @@
+{
+  "name": "chess-opening-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "prettier": "^3.9.6",
+    "vite": "^8.2.2"
+  }
+}
